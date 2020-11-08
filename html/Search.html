@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+
+<body>
+    <h1>Hijacking Searches</h1>
+
+    <h2>Input</h2>
+    <form action="/tacos">
+        <div>
+            <label for="tx">Please Enter Your Username:</label>
+            <input type="text" id="tx" placeholder="username">
+        </div>
+        <br>
+        <div>
+            <label for="pw">Please Enter Password:</label>
+            <input type="password" id="pw" placeholder="password">
+        </div>
+        <br>
+        <div>
+            <label for="cl">Please Pick a Color:</label>
+            <input type="color" id="cl">
+        </div>
+        <br>
+        <div>
+            <label for="num">Please Enter a Number:</label>
+            <input type="number" id="num" min="1" max="100" step="2">
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <h2>Search Baidu</h2>
+    <!--https://www.baidu.com/s?wd=happy-->
+    <form action="https://www.baidu.com/s">
+        <input type="text" name="wd">
+        <button>Go! Baidu Search</button>
+    </form>
+
+    <h2>Search Google</h2>
+    <!--https://www.google.com/search?q=happy-->
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Go! Google Search</button>
+    </form>
+
+    <p>
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <div>
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree to everything</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="disagree_tos" id="disagree" unchecked>
+            <label for="disagree">I disagree</label>
+        </div>
+        <br>
+        <div>
+            <label for="xs">XS: </label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <br>
+            <label for="s">S: </label>
+            <input type="radio" name="size id=" s" value="s">
+            <br>
+            <label for="l">L: </label>
+            <input type="radio" name="size" id="l" value="l">
+        </div>
+        <br>
+        <div>
+            <label for="pet-select">Choose a Pet!</label>
+            <select name="pet" id="pet-select">
+                <option value="">--Please Select a Pet--</option>
+                <option value="dog" selected>Dog</option>
+                <option value="cat">Cat</option>
+                <option value="Parrot">Parrot</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="0" max="100" value="90" name="cheese_level">
+            <label for="meat">Amount of Meat</label>
+            <input type="range" id="meat" min="0" max="10" step="2" name="meat_level">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    </p>
+
+    <p>
+    <form action="/tellstory">
+        <label for="story">Tell Us Your Story:</label>
+        <br>
+        <textarea id="story" name="your_story" rows="5" cols="33" placeholder="Please enter here"></textarea>
+        <br>
+        <label for="request">Your Request:</label>
+        <br>
+        <textarea id="request" name="your_request">
+        Enter your request here.
+        </textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    </p>
+
+    <p>
+        <form action="/dummy">
+            <div>
+                <label for="uname">Please Enter Your Username:</label>
+                <input type="text" id="uname" placeholder="username" name="user_name" required>
+            </div>
+            <div>
+                <label for="upass">Please Enter Your Username:</label>
+                <input type="password" id="upass" placeholder="password" name="user_password" minlength="5" maxlength="15" required>
+            </div>
+            <div>
+                <label for="uemail">Please Enter Your Email:</label>
+                <input type="email" id="uemail" placeholder="email" name="user_email" required>
+            </div>
+            <div>
+                <label for="uurl">Please Enter an URL:</label>
+                <input type="url" id="uurl" placeholder="url" name="user_url" required>
+            </div>
+            <button>Submit!!!</button>
+        </form>
+    </p>
+
+</body>
+
+</html>
