@@ -1,0 +1,165 @@
+/* html {
+    font-size: 100px;
+}
+
+em rem */
+
+h1, h2 {
+    color: indigo;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: underline purple solid;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+button {
+    color: teal;
+    background-color: palegoldenrod;
+    line-height: 2;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+p {
+    color: orange;
+}
+
+label {
+    /* hex最大#FF*/
+    color: #FFCF00;
+    /* rgb最大255 */
+    background-color: rgb(89,151,0);
+}
+
+body {
+    /* #109就是#110099 */
+    background-color: rgb(159, 148, 238);
+    line-height: 2.5;
+    letter-spacing: 5px;
+    font-size: 25px;
+    /* font-family: Arial, Gill Sans, Calibri, sans-serif; */
+    font-family: fantasy;
+
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px orange;
+}
+
+#registerbutton {
+    color: White;
+    background-color: #ffb4a2;
+}
+
+h2::first-letter {
+    background-color: yellow;
+}
+
+h2::selection {
+    background-color: gold;
+}
+
+.contact {
+    color: #e07a5f;
+    background-color: #fdffb6;
+}
+
+.address {
+    color: purple;
+    text-decoration: underline pink;
+}
+
+li a {
+    color: green;
+}
+
+span a {
+    color: green;
+}
+
+.address a {
+    text-decoration: none;
+}
+
+button:hover {
+    color: white;
+    background-color: orange;
+}
+
+/* adjacent */
+div + label {
+    text-decoration: red underline;
+}
+
+/* direct child */
+div > li {
+    color: white;
+}
+
+input[type="password"] {
+    color:green;
+}
+
+section[class="post"] {
+    text-decoration: none;
+}
+
+section.post {
+    text-decoration: none;
+}
+
+/* contains */
+/* case sensitive */
+a[href*="google" s] {
+    color: magenta;
+}
+
+/* end with */
+/* regardless of case */
+a[href$=".org" i] {
+    color: magenta;
+}
+
+a:hover {
+    color: orange;
+}
+
+.post:nth-of-type(2n){
+    background-color: palegoldenrod;
+}
+
+ p {
+     border-style: solid;
+     border-color: black;
+     border-width: 5px;
+     border-style: dashed;
+     border-left-style: solid;
+     /* box-sizing: border-box; */ 
+     /* width | style | color */
+     /* border: medium dashed green;  */
+
+     /* circular */
+     border-radius: 50%;
+
+     /* four sides */
+     /* vertical | horizontal */
+     /* top | horizontal | bottom */
+     /* top | right | bottom | left */
+     border-radius: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+
+     /* top | right | bottom | left */
+     margin: 10px 20px 30px 40px;
+
+     /* display: inline-block; */
+ }
