@@ -1,0 +1,26 @@
+{
+  "name": "languageguesser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "_collapse-white-space@1.0.6@collapse-white-space": "^1.0.6",
+    "_trigram-utils@1.0.3@trigram-utils": "^1.0.3",
+    "_n-gram@1.1.2@n-gram": "^1.1.2",
+    "_franc@5.0.0@franc": "^5.0.0",
+    "_langs@2.0.0@langs": "^2.0.0",
+    "_trim@0.0.1@trim": "^0.0.1",
+    "langs": "^2.0.0",
+    "n-gram": "^1.1.2",
+    "franc": "^5.0.0",
+    "trigram-utils": "^1.0.3",
+    "collapse-white-space": "^1.0.6",
+    "trim": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
